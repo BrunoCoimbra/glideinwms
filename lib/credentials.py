@@ -1878,9 +1878,7 @@ class SecurityBundle:
             cred_type = credential_type_from_string(element_descript["ProxyTypes"].get(path))
             purpose = element_descript["CredentialPurposes"].get(path)
             trust_domain = element_descript["ProxyTrustDomains"].get(path, "None")
-            security_class = element_descript["ProxySecurityClasses"].get(
-                path, "None"
-            )  # TODO: Should this be None?
+            security_class = element_descript["ProxySecurityClasses"].get(path, "None")  # TODO: Should this be None?
             context = load_context(element_descript["CredentialContexts"].get(path, None))
             if isinstance(cred_type, CredentialType):
                 credential = create_credential(
