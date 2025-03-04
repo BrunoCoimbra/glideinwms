@@ -1,8 +1,11 @@
 ###################################################################
-# GLIDEINWMS_VERSION v3_10_10
+# GLIDEINWMS_VERSION v3_10_11_rc1
 ###################################################################
+cd2821f671e40cd22419de9135131085  ./.vscode/extensions.json
+07f720c5fb46f8f1a2d1c5c17aca7ffd  ./.vscode/launch.json
+95a2871399691aeb99f829df9a970bd2  ./.vscode/settings.json
 9f56602cb12638b944332ca114507dc8  ./ACKNOWLEDGMENTS.md
-231d7b10c9446bad9e700c3a8ab1b86e  ./CHANGELOG.md
+f24ead29d573691ad1ce9a4e47e7e999  ./CHANGELOG.md
 8e7d1957a094cc33c89f5b2c935666ff  ./DEVELOPMENT.md
 3b83ef96387f14655fc854ddc3c6bd57  ./LICENSE
 c846ebb396f8b174b10ded4771514fcc  ./LICENSES/Apache-2.0.txt
@@ -28,11 +31,11 @@ f137c49c90632d4fc79012a254311b27  ./creation/lib/cWParams.py
 1bd4ad5d88e00cb92feda9a6f849e64b  ./creation/lib/cgWConsts.py
 f60b4bb3f7325e56c0202682deee31b8  ./creation/lib/cgWCreate.py
 c8254c56cd684c86c24161af3b83e26e  ./creation/lib/cgWDictFile.py
-e15501c42b38030d8a7b2f2ac773620d  ./creation/lib/cgWParamDict.py
-64614429675a460e40e1e8f26eecbdfa  ./creation/lib/cgWParams.py
+7c64dfedf5d7b1e8741328df088c4bdc  ./creation/lib/cgWParamDict.py
+805adbb75a891cd83ff180f7a4e12bb2  ./creation/lib/cgWParams.py
 f3e8c0c2d0bf76c4f1d09030393ee1fc  ./creation/lib/check_python3_expr.py
 1d5f46b0d9fdcf5f27da93ee5a17d874  ./creation/lib/factoryXmlConfig.py
-8e5f470780a81520340baf38cf78bcbb  ./creation/lib/factory_defaults.xml
+f0938cc49fc8292eaa14754977c84b41  ./creation/lib/factory_defaults.xml
 9dd5e2f0870e564ce3c82b48648c8fbe  ./creation/lib/matchPolicy.py
 b6a841c39ce1adf0f150b8a994922961  ./creation/lib/xmlConfig.py
 685fa8cf99ece27f96064254692e0150  ./creation/lib/xslt.py
@@ -45,7 +48,7 @@ fc648630677156904ef40f5434d25872  ./creation/templates/gwms-renew-proxies.cron
 7d7d2ee057fdbc10ec548b01d85c8229  ./creation/templates/gwms-renew-proxies.service
 11a437db8f082df96ea3858d2912cc29  ./creation/templates/gwms-renew-proxies.timer
 8fbe2ecd0d56fb58d7f7aa4c4b152632  ./creation/templates/proxies.ini
-a6d2c9a318c957dc19060f7a7fd4b771  ./creation/web_base/add_config_line.source
+48a5770fca3b6cf4d0145d153ca88b51  ./creation/web_base/add_config_line.source
 81745ec60a29b34e5f116f8e06e8b139  ./creation/web_base/advertise_failure.helper
 99e956233214cc2fdabce268f17f8d37  ./creation/web_base/b64uuencode.source
 57b93914779a0986bfc60b537382a718  ./creation/web_base/cat_consts.sh
@@ -117,8 +120,8 @@ b6e8b47e95d9342a41002034336bdee0  ./creation/web_base/setup_network.sh
 214d7ed29a9a5f92453191b9c4089f12  ./creation/web_base/setup_prejob.sh
 44ddb239979e4592e0fc77ec8a21efd7  ./creation/web_base/setup_script.sh
 0062f8d64ca14e2a5fabee257fe58193  ./creation/web_base/setup_x509.sh
-8f79aed4c5823ef894c6b398bbe4d1e2  ./creation/web_base/singularity_lib.sh
-9a3f21c68a664bf80ff291b6f6fde6a5  ./creation/web_base/singularity_setup.sh
+21294752121e3d7c91fb1652a1c7a3a1  ./creation/web_base/singularity_lib.sh
+7dee4bb6d296d2ea4d44ed997acd5b20  ./creation/web_base/singularity_setup.sh
 09cb7472f92efcac002ee7166f9d4ae4  ./creation/web_base/singularity_wrapper.sh
 1feebbec48bdd2edece16d9b9167a03c  ./creation/web_base/smart_partitionable.sh
 ef537648a0a96e9fceeffd94f09782e7  ./creation/web_base/update_proxy.py
@@ -129,7 +132,7 @@ fecfec51f675180f2260f57355fc5dca  ./factory/checkFactory.py
 3bb0c93a99d5d72fb5d7464a0f87b4cc  ./factory/glideFactoryConfig.py
 e6b3fac5cba7266707f5f71bca16b078  ./factory/glideFactoryCredentials.py
 684e877f9febd29411218a4824da6818  ./factory/glideFactoryDowntimeLib.py
-bbe23bbe67645351f3e64195b2bdb98f  ./factory/glideFactoryEntry.py
+627a04b9643edd7f6b0f38d4599ad967  ./factory/glideFactoryEntry.py
 6d4b3307f45df37d8972eccfb5cd61a0  ./factory/glideFactoryEntryGroup.py
 d960ba622e7c417bc2417bc4eb6c67c0  ./factory/glideFactoryInterface.py
 18420c559eebc1ddb8cc18715ca76f08  ./factory/glideFactoryLib.py
@@ -208,7 +211,6 @@ d64fb84480620115f461ec9aac0ba6be  ./logserver/getjwt.py
 4431fb42281b93c5aa09e760d0910d0b  ./logserver/jwt.php
 24341cffcec0fe15225324f38f707b27  ./logserver/logging_config.json
 eec3476ee8c91ffa71445e4cb860e61f  ./logserver/web-area/put.php
-15da242bd65422e150ac9d64a0411cda  ./plugins/EntryConditionGenerator.py
 ae4540ac3e790a02867cfa22291f48d6  ./plugins/scitokens_callout.py
 762e30b1c873f9e44fc786f7e57a9d93  ./pyproject.toml
 747b7fe6d83ec506f58292fa3b39f4c7  ./requirements.txt
